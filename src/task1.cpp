@@ -1,6 +1,4 @@
-char gender[10] = { 'm', 'w' };
-float height = 0;
-float weight = 0;
+#include "task1.h"
 	int getRecommendation(char gender, float height, float weight)
 	{
 	
