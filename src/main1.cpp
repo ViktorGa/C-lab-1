@@ -1,9 +1,9 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "task1.h"
 #include <stdio.h>
+#include <string.h>
+#include <iostream>
 
-
-
+int getRecommendation(char gender, float height, float weight);
 int main()
 {
 	char gender[10] = { 'm', 'w' };
